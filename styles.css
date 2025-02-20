@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'RETROTECH';
+    src: url(fonts/RETROTECH.ttf);
+}
+
+body {
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    margin: 6em;
+}
+
+header {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    height: auto;
+    width: 420px;
+    border: 8px solid aliceblue;
+    border-radius: 15px;
+    box-shadow: 8px 9px 6px rgba(0, 0, 0, 0.3);
+}
+
+img {
+    border-radius: 15px;
+}
+
+#banner {
+    background-color: rgb(240, 248, 255);
+    opacity: 99%;
+    border-radius: 10px;
+    font-family: 'RETROTECH';
+    width: 408px;
+    margin: -120px 0 0 -3px;
+    padding: 1px 10px 5px 13px;
+    z-index: 1;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-around;
+}
+
+.botones button {
+    background-color: #f042a2;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 0.3em;
+    border-style: dashed;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.4);
+}
+
+.botones button:hover {
+    background-color: #a32d6e;
+    color: #74e6e0;
+    text-shadow: -1px -1px 0 #136a65;
+    transform: scale(1.1);
+    transition: all 150ms linear;
+}
+
+main {
+    flex: 1;
+}
+
+#video {
+    width: 640px;
+    height: 360px;
+    border: 8px solid aliceblue;
+    border-radius: 10px;
+    box-shadow: 8px 9px 6px rgba(0, 0, 0, 0.3);
+}
+
+.pista {
+    font-family: 'RETROTECH';
+    font-size: 17px;
+    background: linear-gradient(to right, #f042a2, #0056A180);
+    opacity: 90%;
+    border: 5px solid aliceblue;
+    border-bottom: 0;
+    border-radius: 15px;
+    padding: 5px 0 5px 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    box-shadow: 0px 5px 0 aliceblue, 5px 8px 10px #eee;
+    font-weight: 900;
+    letter-spacing: 1px;
+    transition: all 150ms linear;
+}
+
+.pista:hover {
+    background: linear-gradient(to right, #f042a2, #0056A1);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
+    color: #74e6e0;
+    text-decoration: none;
+    text-shadow: -1px -1px 0 #136a65;
+    transition: all 250ms linear;
+    transform: scale(1.1);
+}
